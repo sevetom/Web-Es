@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="it">
+        <head>
+            <title>Esercizio HTML</title>
+            <meta charset="UTF-8"/>
+        </head>
+        <body>
+            <header>
+                <h1>Contatti</h1>
+            </header>
+            <main>
+                <section>
+                    <h2>Informazioni Anagrafiche</h2>
+                    <form action="#" method="POST">
+                        <ul>
+                            <li>
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" name="name" placeholder="nome"/>
+                            </li>
+                            <li>
+                                <label for="surname">Cognome:</label>
+                                <input type="text" id="surname" name="surname" placeholder="cognome"/>
+                            </li>
+                            <li>
+                                <label for="cf">Codice Fiscale:</label>
+                                <input type="text" id="cf" name="cf" placeholder="codice fiscale"/>
+                            </li>
+                            <li>
+                                <label for="birth_date">Data di nascita:</label>
+                                <input type="date" id="birth_date" name="birth_date"/>
+                            </li>
+                            <li>
+                                <label for="birth_place">Luogo di nascita:</label>
+                                <input type="text" id="birth_place" name="birth_place" placeholder="luogo di nascita"/>
+                            </li>
+                        </ul>
+                        <h2>Preferenze</h2>
+                        <ul>
+                            <li>
+                                <fieldset>
+                                    <legend>Assicurazione</legend>
+                                    <p>
+                                        <input type="radio" id="first_level" name="insurance" value="first_level">
+                                        <label for="first_level">Primo Livello</label>
+                                        <input type="radio" id="second_level" name="insurance" value="second_level">
+                                        <label for="second_level">Secondo Livello</label>
+                                        <input type="radio" id="third_level" name="insurance" value="third_level">
+                                        <label for="third_level">Terzo Livello</label>
+                                    </p>
+                                </fieldset>
+                            </li>
+                            <li>
+                                <label for="vehicle">Mezzo Preferito:</label>
+                                <select id="vehicle" name="vehicle">
+                                    <option value="car">Automobile</option>
+                                    <option value="motorbike">Moto</option>
+                                    <option value="bike">Bicicletta</option>
+                                    <option value="scooter">Monopattino</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="car_having">Automunito:</label>
+                                <input type="checkbox" id="car_having" name="car_having">
+                            </li>
+                            <li>
+                                <label for="description">Descrizione:</label>
+                                <textarea id="description" name="description" rows="5" cols="30"></textarea>
+                            </li>
+                        </ul>
+                        <input type="submit" id="submit" name="invia">
+                        <input type="reset" id="reset" name="reset">
+                    </form>
+                </section>
+            </main>
+        </body>
+    </html>
