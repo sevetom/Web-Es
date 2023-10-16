@@ -9,9 +9,9 @@
                 <h1>Contatti</h1>
             </header>
             <main>
-                <section>
-                    <h2>Informazioni Anagrafiche</h2>
-                    <form action="#" method="POST">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Informazioni Anagrafiche</legend>
                         <ul>
                             <li>
                                 <label for="name">Nome:</label>
@@ -34,20 +34,26 @@
                                 <input type="text" id="birth_place" name="birth_place" placeholder="luogo di nascita"/>
                             </li>
                         </ul>
-                        <h2>Preferenze</h2>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferenze</legend>
                         <ul>
                             <li>
-                                <fieldset>
-                                    <legend>Assicurazione</legend>
-                                    <p>
+                                <label>Assicurazione:</label>
+                                <ol>
+                                    <li>
                                         <input type="radio" id="first_level" name="insurance" value="first_level">
                                         <label for="first_level">Primo Livello</label>
+                                    </li>
+                                    <li>
                                         <input type="radio" id="second_level" name="insurance" value="second_level">
                                         <label for="second_level">Secondo Livello</label>
+                                    </li>
+                                    <li>
                                         <input type="radio" id="third_level" name="insurance" value="third_level">
                                         <label for="third_level">Terzo Livello</label>
-                                    </p>
-                                </fieldset>
+                                    </li>
+                                </ol>
                             </li>
                             <li>
                                 <label for="vehicle">Mezzo Preferito:</label>
@@ -64,13 +70,13 @@
                             </li>
                             <li>
                                 <label for="description">Descrizione:</label>
-                                <textarea id="description" name="description" rows="5" cols="30"></textarea>
+                                <textarea id="description" name="description"></textarea>
                             </li>
                         </ul>
-                        <input type="submit" id="submit" name="invia">
-                        <input type="reset" id="reset" name="reset">
-                    </form>
-                </section>
+                    </fieldset>
+                    <input type="submit" id="submit" name="invia">
+                    <input type="reset" id="reset" name="reset">
+                </form>
             </main>
         </body>
     </html>
