@@ -1,0 +1,88 @@
+h1, p, a {
+    font-family: monospace;
+    font-size: 100%;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px 0;
+    border-bottom: 3px solid purple;
+    text-align: right;
+}
+
+header > h1 {
+    font-size: 30px;
+    color: purple;
+}
+
+nav, aside, section {
+    display: inline-block;
+}
+
+section {
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+section > p {
+    text-align: left;
+    color: black;
+}
+
+nav {
+    width: 15%;
+    margin: 5px 20px 0px 5px;
+    padding: 5px;
+}
+
+nav ul {
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    width: 50%;
+    list-style: square;
+    padding: 20px 0px 15px 50px;
+    border-bottom: 3px solid purple;
+    border-top: 3px solid purple;
+}
+
+nav li {
+    width: 85%;
+    text-align: left;
+    margin-bottom: 5px;
+    line-height: 2;
+}
+
+nav li a:hover {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+
+nav ul:hover {
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
+}
+
+aside {
+    width: 20%;
+}
+
+aside p {
+    color: purple;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
+    width: 100%;
+    border-top: 3px solid purple;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: purple;
+    font-size: 80%;
+}
