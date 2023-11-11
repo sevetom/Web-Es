@@ -23,7 +23,7 @@ nav, aside, section {
 
 section {
     width: 50%;
-    margin: 20px 0 0 32px;
+    margin: 20px 0 0 30px;
 }
 
 section > p {
@@ -34,7 +34,7 @@ section > p {
 
 nav {
     width: 15%;
-    margin: 5px 32px 0 9px;
+    margin: 5px 30px 0 10px;
     padding: 5px;
     background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
     border-bottom: 3px solid purple;
@@ -42,7 +42,7 @@ nav {
     float: left;
 }
 
-nav ul {
+nav > ul {
     list-style: square;
     padding: 5px 0 5px 50px;
 }
@@ -53,7 +53,7 @@ nav li {
     line-height: 2;
 }
 
-nav li a:hover {
+nav a:hover {
     background-color: purple;
     color: white;
     font-weight: bold;
@@ -66,7 +66,7 @@ nav:hover {
 
 aside {
     width: 20%;
-    margin: 20px 32px 0 32px;
+    margin: 20px 30px 0 30px;
     float: left;
 }
 
@@ -85,5 +85,5 @@ footer {
 
 footer > p {
     color: purple;
-    size: 80%;
+    font-size: 80%;
 }
