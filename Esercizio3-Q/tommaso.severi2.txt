@@ -1,9 +1,8 @@
 Alla base del web sono definiti tre standard fondamentali:
-- HTTP (Hypertext Transfer Protocol): 
-	È il protocollo di comunicazione che permette il trasferimento di informazioni sul web. HTTP è alla base del trasferimento di dati tra il client e il server web.
+- HTML (Hypertext Markup Language): è un linguaggio di markup utilizzato per l'identificazione del formato delle risorse delle pagine web, fornendo i mezzi per definire la sua 	struttura e layout. Le pagine web in cui viene utilizzato HTML fanno uso di elementi rappresentati da tag che definiscono il significato e l'aspetto dei contenuti. Il 	browser interpreta poi questa linguaggio e mostra la pagina all'utente nel suo aspetto desiderato.
 
-- HTML (Hypertext Markup Language): È il linguaggio di markup utilizzato per la creazione e la strutturazione delle pagine web. HTML fornisce i mezzi per definire la struttura 	e il layout di una pagina web, incorporando elementi come testo, immagini, collegamenti ipertestuali e altro ancora. Gli elementi HTML sono rappresentati da tag che 	definiscono il significato e l'aspetto dei contenuti.
+- HTTP (Hypertext Transfer Protocol): è il protocollo di comunicazione che permette lo scambio e il trasferimento di informazioni sul web. Questo protocollo è alla base del 	trasferimento di dati tra il client e il server consentendo la visualizzazione delle pagine web nel momento in cui l'utente desidera visitarla.
 
-- URI (Uniform Resource Identifier): URI è una stringa di caratteri che identifica un nome o una risorsa su Internet in modo univoco. Gli URI includono due sottocategorie: URL 	(Uniform Resource Locator) che specifica l'indirizzo di una risorsa su Internet e URN (Uniform Resource Name) che identifica una risorsa in modo persistente senza dover 	specificare la sua posizione.
-
-Questi standard lavorano insieme per consentire la creazione, la trasmissione e la visualizzazione delle informazioni sul web in modo coerente e standardizzato. Quando l'utente visita un sito web (HTTP), il browser utilizza HTML per interpretare e mostrare la pagina, mentre gli URI consentono di identificare univocamente ogni risorsa, come gli indirizzi delle pagine web (URL).
+- URI (Uniform Resource Identifier): è una stringa di caratteri che identifica un nome o una risorsa su internet in modo univoco. Gli URI includono due sottocategorie: 
+	- URL (Uniform Resource Locator): specifica l'indirizzo di una risorsa su internet, come gli indirizzi delle pagine web.
+	- URN (Uniform Resource Name): identifica una risorsa in modo persistente senza dover specificare la sua posizione.
