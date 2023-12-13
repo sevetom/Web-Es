@@ -5,7 +5,7 @@
 <?php foreach($templateParams["articoli"] as $articolo): ?>
     <article>
         <header>
-            <img src="<?php echo UPLOAD_DIR.$articolo["imgarticolo"]; ?>" alt=""/>
+            <img src="<?php echo UPLOAD_DIR.$articolo["imgarticolo"]; ?>" alt="" />
             <h2><?php echo $articolo["titoloarticolo"]; ?></h2>
             <p><?php echo $articolo["dataarticolo"]; ?> - <?php echo $articolo["nome"]; ?></p>
         </header>
@@ -13,7 +13,7 @@
             <p><?php echo $articolo["anteprimaarticolo"]; ?></p>
         </section>
         <footer>
-            <a href="articolo.php?id<?php echo $articolo["idarticolo"] ?>">Leggi tutto</a>
+            <a href="articolo.php?id=<?php echo $articolo["idarticolo"]; ?> ">Leggi tutto</a>
         </footer>
     </article>
 <?php endforeach; ?>

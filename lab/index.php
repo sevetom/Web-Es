@@ -5,7 +5,9 @@ $templateParams["titolo"] = "Blog TW - Home";
 $templateParams["nome"] = "lista-articoli.php";
 $templateParams["articolicasuali"] = $dbh->getRandomPosts(2);
 $templateParams["categorie"] = $dbh->getCategories();
+
 $templateParams["articoli"] = $dbh->getPosts(2);
 
 require("template/base.php");
+
 ?>

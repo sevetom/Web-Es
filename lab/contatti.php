@@ -5,7 +5,9 @@ $templateParams["titolo"] = "Blog TW - Contatti";
 $templateParams["nome"] = "contatti.php";
 $templateParams["articolicasuali"] = $dbh->getRandomPosts(2);
 $templateParams["categorie"] = $dbh->getCategories();
-$templateParams["autori"] = $dbh->getAuthors();
+
+$templateParams["autori"] = $dbh->getAuthors(2);
 
 require("template/base.php");
+
 ?>
